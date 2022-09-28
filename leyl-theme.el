@@ -69,7 +69,8 @@
 
  ;; Search
  '(isearch ((t (:foreground "black" :background "#ff2a26"))))
- '(isearch-lazy-highlight-face ((t (:foreground "#ff2a26"))))
+ '(lazy-highlight ((t (:foreground "black" :background "#F4E5B6"))))
+ '(isearch-lazy-highlight ((t (:foreground "black" :background "#F4E5B6"))))
 
  ;; Parenthesis matching
  '(show-paren-match-face ((t (:foreground "black" :background "light gray"))))
