@@ -47,7 +47,7 @@
                                   :foreground "white"))))
 
  '(region ((t (:background "light gray" :foreground "black"))))
- '(secondary-selection ((t (:background "Aquamarine" :foreground "SlateBlue"))))
+ '(secondary-selection ((t (:background "aquamarine" :foreground "SlateBlue"))))
  '(tool-bar ((t (:background "#111" :foreground "#777"))))
  '(tooltip ((t (:background "#333" :foreground "#0f111a"))))
  '(widget-button-face ((t (:bold t :foreground "#888"))))
