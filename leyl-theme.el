@@ -1,3 +1,4 @@
+
 (deftheme leyl
   "Dark mode theme inspired by nord and iceberg colors.")
 
@@ -54,17 +55,17 @@
 
  ;; Compilation
  `(compilation-info ((t ,(list :foreground "#6491db"
-							   :inherit 'unspecified))))
+			       :inherit 'unspecified))))
  `(compilation-warning ((t ,(list :foreground "#FFFF66"
-								  :bold t
-								  :inherit 'unspecified))))
+				  :bold t
+				  :inherit 'unspecified))))
  `(compilation-error ((t (:foreground ,"#ff726f"))))
  `(compilation-mode-line-fail ((t ,(list :foreground "#ff2a26"
-										 :weight 'bold
-										 :inherit 'unspecified))))
+					 :weight 'bold
+					 :inherit 'unspecified))))
  `(compilation-mode-line-exit ((t ,(list :foreground "light green"
-										 :weight 'bold
-										 :inherit 'unspecified))))
+					 :weight 'bold
+					 :inherit 'unspecified))))
 
  ;; Search
  '(isearch ((t (:foreground "black" :background "#ff2a26"))))
@@ -100,14 +101,14 @@
 
    ;;;;; company-mode
  `(company-tooltip ((t (:foreground "#d8dee9" :background "#2e3440"))))
-
+ )
 
 (provide-theme 'leyl)
 
 ;;;###autoload
 (when load-file-name
   (add-to-list 'custom-theme-load-path
-			   (file-name-as-directory (file-name-directory load-file-name))))
+	       (file-name-as-directory (file-name-directory load-file-name))))
 
 ;; Local Variables:
 ;; eval: (when (require 'rainbow-mode nil t) (rainbow-mode 1))
