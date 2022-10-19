@@ -40,11 +40,11 @@
 
  ;; Mode Line
  `(mode-line ((t ,(list :background "#333"
-                        :foreground "light gray"))))
+			:foreground "light gray"))))
  ;; '(modeline ((t (:background "gray20" :foreground "white"))))
  `(mode-line-inactive ((t (:background "#333" :foreground "#888"))))
  `(mode-line-buffer-id ((t ,(list :background "#333"
-                                  :foreground "white"))))
+				  :foreground "white"))))
 
  '(region ((t (:background "light gray" :foreground "black"))))
  '(secondary-selection ((t (:background "aquamarine" :foreground "SlateBlue"))))
@@ -72,9 +72,20 @@
  '(lazy-highlight ((t (:foreground "black" :background "#F4E5B6"))))
  '(isearch-lazy-highlight ((t (:foreground "black" :background "#F4E5B6"))))
 
+ '(match ((t (:foreground "black" :background "#ff2a26"))))
+
  ;; Parenthesis matching
  '(show-paren-match-face ((t (:foreground "black" :background "light gray"))))
  '(show-paren-mismatch-face ((t (:foreground "black" :background "#ff2a26"))))
+
+ ;; Whitespace mode
+ '(whitespace-space ((t (:foreground "#3b4252"))))
+ '(whitespace-hspace ((t (:foreground "#3b4252"))))
+ '(whitespace-tab ((t (:foreground "#3b4252"))))
+ '(whitespace-trailing ((t (:foreground "#ff2a26"))))
+ '(whitespace-newline ((t (:foreground "#2e3440"))))
+ '(whitespace-empty ((t (:foreground "#3b4252"))))
+
 
  ;; Line highlighting
  '(highlight ((t (:background "#1f1f1f" :foreground nil))))
@@ -99,6 +110,9 @@
 
  ;; Org Mode
  `(org-block ((t (:foreground "#D8DEE9"))))
+
+ ;; js2 mode
+ '(js2-function-param ((t (:background nil :foreground "#b7cfdc"))))
 
    ;;;;; company-mode
  `(company-tooltip ((t (:foreground "#d8dee9" :background "#2e3440"))))
