@@ -86,6 +86,10 @@
  '(whitespace-newline ((t (:foreground "#2e3440"))))
  '(whitespace-empty ((t (:foreground "#3b4252"))))
 
+ '(whitespace-big-indent ((t (:foreground "#3b4252"))))
+ '(whitespace-indentation ((t (:foreground "#3b4252"))))
+ '(whitespace-space-after-tab ((t (:foreground "#3b4252"))))
+
 
  ;; Line highlighting
  '(highlight ((t (:background "#1f1f1f" :foreground nil))))
@@ -115,7 +119,13 @@
  '(js2-function-param ((t (:background nil :foreground "#b7cfdc"))))
 
    ;;;;; company-mode
- `(company-tooltip ((t (:foreground "#d8dee9" :background "#2e3440"))))
+ `(company-tooltip ((t (:background "#111118"))))
+ `(company-tooltip-common-selection ((t (:foreground "#98aeb6"))))
+ `(company-preview ((t (:foreground "#e0e6f0" :background "#100f10"))))
+ `(company-scrollbar-fg ((t (:background "#d7d7d7"))))
+ `(company-scrollbar-bg ((t (:background "#0a0a0a"))))
+ `(company-echo-common ((t (:background "#0a0a0a"))))
+
  )
 
 (provide-theme 'leyl)
