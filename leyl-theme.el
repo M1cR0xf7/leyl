@@ -82,9 +82,8 @@
  '(whitespace-space ((t (:foreground "#3b4252"))))
  '(whitespace-hspace ((t (:foreground "#3b4252"))))
  '(whitespace-tab ((t (:foreground "#3b4252"))))
- '(whitespace-trailing ((t (:foreground "#ff2a26"))))
+ '(whitespace-trailing ((t (:background "#ff2a26"))))
  '(whitespace-newline ((t (:foreground "#2e3440"))))
- '(whitespace-empty ((t (:foreground "#3b4252"))))
 
  '(whitespace-big-indent ((t (:foreground "#3b4252"))))
  '(whitespace-indentation ((t (:foreground "#3b4252"))))
@@ -118,9 +117,10 @@
  ;; js2 mode
  '(js2-function-param ((t (:background nil :foreground "#b7cfdc"))))
 
-   ;;;;; company-mode
+ ;;;;; company-mode
  `(company-tooltip ((t (:background "#111118"))))
- `(company-tooltip-common-selection ((t (:foreground "#98aeb6"))))
+ `(company-tooltip-selection ((t (:foreground "#fff" :background "#212429"))))
+ `(company-tooltip-common ((t (:foreground "#a1d377"))))
  `(company-preview ((t (:foreground "#e0e6f0" :background "#100f10"))))
  `(company-scrollbar-fg ((t (:background "#d7d7d7"))))
  `(company-scrollbar-bg ((t (:background "#0a0a0a"))))
