@@ -6,7 +6,7 @@
  'leyl
 
  ;; Standard font lock faces
- '(default ((t (:background "#0f111a" :foreground "#D8DEE9"))))
+ '(default ((t (:background "#0b0b15" :foreground "#D8DEE9"))))
  '(bold ((t (:bold t))))
  '(italic ((t (:italic t))))
  '(underline ((t (:bold t :underline))))
